@@ -1,0 +1,61 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+ISOT/ISOT_trained_model.pth
+WELFake/WELFake_trained_model.pth
+*.csv
+*.tsv
+
+# Dataset folders to ignore
+ISOT_Dataset/
+WELFake_Dataset/
+
+ISOT\ISOT_Dataset/
+WELFake\WELFake_Dataset/
+
+# Dataset and model files
+*.sqlite3
+*.db
+*.h5
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Others
+*.bak
+*.swp
+*.tmp

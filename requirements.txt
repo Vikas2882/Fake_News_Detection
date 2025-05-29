@@ -1,0 +1,11 @@
+transformers
+pandas
+scikit-learn
+seaborn
+matplotlib
+wordcloud
+gensim
+nltk
+tensorflow
+torch
+gradio
