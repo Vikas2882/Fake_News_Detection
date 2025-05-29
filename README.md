@@ -59,8 +59,8 @@ Fake news is a growing problem with serious consequences. This project aims to d
    - For WELFake: `python WELFake/WELFake_FND_Code.ipynb`
 
 5. Run the Web App:  
-   - For ISOT: `python ISOT/app.py`
-   - For WELFake: `python WELFake/app.py`
+   - For ISOT: `python ISOT/ISOT_UI.py`
+   - For WELFake: `python WELFake/WELFake_UI.py`
 
 ## Requirements
 
