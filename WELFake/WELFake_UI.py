@@ -116,7 +116,7 @@ iface = gr.Interface(
         gr.Number(label="Confidence Score of Prediction"),
     ],
     title="Fake News Detector",
-    description="Upload a file or paste text to detect fake news. Powered by BERT",
+    description="Upload a file or paste text to detect fake news. Powered by Optimized BERT",
     allow_flagging="never",
 )
 

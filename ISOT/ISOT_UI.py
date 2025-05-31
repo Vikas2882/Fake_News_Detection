@@ -6,7 +6,7 @@ from torch.nn.utils.rnn import pad_sequence
 
 # Load the pre-trained model and tokenizer
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-model= torch.load(r'D:\STD_DESK\STDs\Fake_News_Detection\15group-PROJECT-FOLDER\Research Paper\ISOT\ISOT_trained_model.pth', map_location=torch.device('cpu'), weights_only=False)
+model= torch.load(r'D:\STD_DESK\STDs\Fake_News_Detection\15-group-PROJECT-FOLDER\Research Paper\CODES\ISOT\ISOT_trained_model.pth', map_location=torch.device('cpu'), weights_only=False)
 
   # Replace with your model path
 model = model.to(device)
@@ -116,7 +116,7 @@ iface = gr.Interface(
         gr.Number(label="Confidence Score"),
     ],
     title="Fake News Detector",
-    description="Upload a file or paste text to detect fake news. Powered by BERT / AI / NLP.",
+    description="Upload a file or paste text to detect fake news. Powered by Optimized BERT",
     allow_flagging="never",
 )
 
