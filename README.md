@@ -83,6 +83,11 @@ Fake news is a growing problem with serious consequences. This project aims to d
 
 The project uses a pre-trained BERT model for sequence classification. The model is fine-tuned separately on the ISOT and WELFake datasets to achieve high accuracy in detecting fake news articles.
 
+1. Trained BERT model on ISOT:
+[https://drive.google.com/file/d/1ceHo3p2sA1pVsPFlpbsA09PiBpkPhosx/view?usp=sharing 🔗](https://drive.google.com/file/d/1ceHo3p2sA1pVsPFlpbsA09PiBpkPhosx/view?usp=sharing)
+1. Trained BERT model on WELFake: 
+[https://drive.google.com/file/d/1SMcjjHw9Oj7isEQq82F2NidWkU4aL7-S/view?usp=sharing 🔗](https://drive.google.com/file/d/1SMcjjHw9Oj7isEQq82F2NidWkU4aL7-S/view?usp=sharing)
+
 ## Evaluation
 
 The models are evaluated using various metrics such as accuracy, precision, recall, F1-score, and confusion matrix.
@@ -99,4 +104,4 @@ A simple web interface is provided using Gradio for easy interaction with the fa
 
 - Name: Vikas  
 - Email: vk2882590@gmail.com  
-- GitHub: [https://github.com/Vikas2882/Fake_News_Detection.git](https://github.com/Vikas2882/Fake_News_Detection.git)"# Fake_News_Detection" 
+- GitHub: [https://github.com/Vikas2882/Fake_News_Detection.git](https://github.com/Vikas2882/Fake_News_Detection.git) 

@@ -109,13 +109,13 @@ iface = gr.Interface(
     fn=predict_fake_news,
     inputs=[
         gr.File(label="Upload a .txt or .csv file"),  # Allow file uploads
-        gr.Textbox(lines=5, placeholder="Or paste your article or headline here..."),  # Optional text input
+        gr.Textbox(lines=5, placeholder="Or paste your article here..."),  # Optional text input
     ],
     outputs=[
         gr.Label(label="Prediction"),
         gr.Number(label="Confidence Score"),
     ],
-    title="Fake News Detector",
+    title="Fake News Detector trained on ISOT Dataset",
     description="Upload a file or paste text to detect fake news. Powered by Optimized BERT",
     allow_flagging="never",
 )
